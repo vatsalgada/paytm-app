@@ -1,9 +1,11 @@
 {
   "name": "@repo/db",
   "version": "0.0.0",
+  "type": "module",
   "dependencies": {
     "@prisma/client": "^5.16.2" 
   },
+  
   "devDependencies": {
     "prisma": "5.16.2" 
   },
@@ -12,7 +14,8 @@
     "db:push": "prisma db push --skip-generate"
   },
   "exports": {
-    "./client": "./src/index.ts"
+    "./client": "./src/index.ts",
+    "./client/js": "./dist/index.js"
 }
 
 }

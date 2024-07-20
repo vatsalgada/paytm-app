@@ -21,6 +21,15 @@
     "packages/*"
   ],
   "dependencies": {
+    "@types/express": "^4.17.21",
+    "esbuild": "^0.23.0",
+    "express": "^4.19.2",
     "next": "^14.2.5"
-  }
+  },
+  "description": "This is an official starter Turborepo.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
