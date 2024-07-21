@@ -1,9 +1,10 @@
+"use client";
 
-import { Button } from "@repo/ui/button";
+import { useBalance } from "@repo/store/balance";
 
-
-export default function Home() {
-  return (
-   <div>Hello merchants</div>
-  );
+export default function() {
+  const balance = useBalance();
+  return <div>
+    hi there {balance}
+  </div>
 }
